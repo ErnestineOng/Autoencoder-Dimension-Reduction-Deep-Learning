@@ -1,8 +1,8 @@
-# 🖼️ Image Dimension Reduction Using Autoencoder
+# Image Dimension Reduction Using Autoencoder
 
 A Deep Learning project that applies an **Autoencoder** to reduce the dimensionality of overhead imagery while preserving important visual information. The project compares a baseline Autoencoder with modified and tuned architectures using the **Overhead-MNIST Plane dataset**.
 
-## 🎯 Project Overview
+##  Project Overview
 
 The objective is to compress **28×28 grayscale images (784 pixels)** into a **128-dimensional latent representation**, then reconstruct the original images from the compressed representation.
 
@@ -25,7 +25,7 @@ The data is divided into:
 * 10% Validation
 * 10% Testing
 
-## 🔧 Methodology
+## Methodology
 
 ### Baseline Autoencoder
 
@@ -73,7 +73,7 @@ The improvement indicates that the modified architecture and hyperparameter tuni
 * Increasing the convolutional capacity and adding regularization improved the reconstruction quality.
 * Hyperparameter tuning with Cosine Decay, smaller batch size, and dropout further improved the Mean SSIM.
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 * Python
 * TensorFlow / Keras
@@ -84,7 +84,7 @@ The improvement indicates that the modified architecture and hyperparameter tuni
 * Jupyter Notebook
 
 
-## 📚 Dataset Source
+## Dataset Source
 
 Overhead-MNIST Dataset:
 https://www.kaggle.com/datasets/datamunge/overheadmnist/data
@@ -92,7 +92,7 @@ https://www.kaggle.com/datasets/datamunge/overheadmnist/data
 Dataset paper:
 https://arxiv.org/pdf/2102.04266
 
-## 📝 Project Type
+## Project Type
 
 **Deep Learning — Autoencoder & Dimension Reduction**
 
